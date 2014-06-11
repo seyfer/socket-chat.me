@@ -1,0 +1,23 @@
+{
+    "name": "seyfer/socket-chat",
+    "description": "tutorial",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "seyfer",
+            "email": "seyferseed@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "1.2.*",
+        "facebook/php-sdk": "3.2.*",
+        "cboden/ratchet": "0.3.*",
+        "filp/whoops": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seyfer\\SocketChat\\": "src/"
+        }
+    }
+}
